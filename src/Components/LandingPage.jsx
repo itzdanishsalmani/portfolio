@@ -5,8 +5,8 @@ function TopBar(){
                 MOHAMMED DANISH
             </div>
             <div className="flex justify-end text-white text-sm">
-                <div className="pl-8">ABOUT </div>
-                <div className="pl-8">SKILLS</div>
+                <div className="pl-8"><a href=""><h2>ABOUT</h2></a> </div>
+                <div className="pl-8"><a href=""><h2>SKILLS</h2></a></div>
             </div>  
         </div>
     )
@@ -15,11 +15,11 @@ function TopBar(){
 function AfterTopBar(){
     return(
         <div className="flex">
-        <div className="pt-16 pb-8">
-        <div className="text-white text-4xl font-bold">
-        <div className="pt-3">Hello,</div>
-        <div className="pt-3">This is <span className="text-custom-pink">Mohammed Danish </span>, </div>
-        <div className="pt-3 pb-12  ">I'm a<span className="text-custom-green"> Software Developer</span>.</div>
+            <div className="pt-16 pb-8">
+            <div className="text-white text-4xl font-bold">
+            <div className="pt-3">Hello,</div>
+            <div className="pt-3">This is<a href="https://twitter.com/itzzdanish"> <span className="text-custom-pink">MOHAMMED DANISH</span></a>, </div>
+            <div className="pt-3 pb-12  ">I'm a<span className="text-custom-green"> Software Developer</span>.</div>
         </div>
 
         <div className="text-xl text-custom-green pb-2">
@@ -44,14 +44,14 @@ function SocialLinks(){
     return(
         <div>
 <div className="flex w-10 h-10 mt-12">
-            <img src="/gmail.svg"    className="" alt="" />
-            <img src="/linkedin.svg" className="ml-8" alt="" />
-            <img src="/github.svg"   className="ml-8" alt="" />
-            <img src="/twitter.svg"  className="ml-8" alt="" />
+            <a href="mailto:salmanidanish488@gmail.com"><img src="./gmail.svg"    className="" alt="" /></a><img src="./gmail.svg"    className="" alt="/" />
+            <a href="https://www.linkedin.com/in/mohammed-danish-salmani-ab2586258/"><img src="./linkedin.svg" className="ml-8" alt="/" /></a>
+            <a href="https://github.com/itzdanishsalmani/"><img src="./github.svg"   className="ml-8" alt="/" /></a>
+            <a href="https://twitter.com/itzzdanish"><img src="./twitter.svg"  className="ml-8" alt="/" /></a>
         </div>
         
         <div className="w-fit text-white rounded-3xl text-sm mt-8 p-2 bg-custom-pink">
-            <button>GET RESUME</button>
+            <button><a href="">GET RESUME</a></button>
         </div>
 
         </div>
@@ -63,18 +63,18 @@ function Skills(){
         <div>
             <div className="flex text-xl text-white justify-center pb-12 ">SKILLS</div>
             <div className="w-24 h-24 flex justify-between w-full mb-12 ">
-                <img src="/javascript.svg" alt="" />
-                <img src="/react.svg" alt="" />
-                <img src="/nodejs.svg" alt="" />
-                <img src="/mongodb.svg" alt="" />
-                <img src="/tailwind-css.svg" alt="" />
+                <a href="add a link from me main docc"></a><img src="/javascript.svg" alt="" />
+                <a href="add a link from me main docc"></a><img src="/react.svg" alt="" />
+                <a href="add a link from me main docc"></a><img src="/nodejs.svg" alt="" />
+                <a href="add a link from me main docc"></a><img src="/mongodb.svg" alt="" />
+                <a href="add a link from me main docc"></a><img src="/tailwind-css.svg" alt="" />
                 </div>
                 <div className="w-24 h-24 flex justify-between w-full">
-                <img src="/html.svg" alt="" />
-                <img src="/css.svg" alt="" />
-                <img src="mysql.svg" alt="" />
-                <img src="/git.svg" alt="" />
-                <img src="/github.svg" alt="" />
+                <a href="add a link"></a><img src="/html.svg" alt="" />
+                <a href="add a link"></a><img src="/css.svg" alt="" />
+                <a href="add a link"></a><img src="mysql.svg" alt="" />
+                <a href="add a link"></a><img src="/git.svg" alt="" />
+                <a href="add a link"></a><img src="/github.svg" alt="" />
                 </div>
                 <div className="flex text-white mt-16 items-center justify-center">
                 ____________________________________________________________________________________________________________________________________________________
@@ -84,8 +84,8 @@ function Skills(){
 }
 function Footer(){
     return(
-        <div className="text-white mt-12">
-            © Developer Portfolio by <span className="text-custom-green">Mohammed Danish</span>
+        <div className="text-white mt-12 text-center">
+            © Developer Portfolio by <span className="text-custom-green"><a href="https://twitter.com/itzzdanish">Mohammed Danish</a></span>
         </div>
     )
 }
